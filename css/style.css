@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    
 }
 * {
    
@@ -58,6 +59,7 @@ nav .links a:hover{
         margin-left: 10%;
         margin-top: 5%;
         color: #000000;
+        font-weight: bold;
      
 }
 .text .by{
@@ -93,3 +95,39 @@ nav .links a:hover{
     width: 100px;
    
 }
+.container{
+    display: flex;
+    flex-wrap: column;
+    column-gap: 25%;
+    margin-left: 13%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.about{
+    width: 30%;
+   
+    
+    text-align: justify;
+    font-family: "Lucida Console", monospace;
+    line-height: 2;
+    font-size: 130%;
+   
+}
+
+.about .aboutme{
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.aboutimg{
+margin-top: 2%;
+ width:  25%;
+ margin-left: 5%;
+}
+
+.aboutimg img{
+    border-radius: 50%;
+    border: #888888 solid 15px;
+}
+
+
