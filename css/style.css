@@ -21,7 +21,7 @@ nav .links a{
 nav .links{
     display: flex;
     flex-direction: row;
-    column-gap: 50px;
+    column-gap: 20px;
    justify-content: flex-end;
 }
 nav{
@@ -39,74 +39,97 @@ nav{
 nav .pic img{
     width: 100%;
     height: 70px;
+    min-width: 120px;
 }
 
 nav .links a:hover{
-    background-color: #888888;
+    background-color: #000000;
     color: white;
     text-decoration: underline;
 }
 .welcome{
     display: flex;
     flex-direction: row;
-    column-gap: 15%;
+    column-gap: 8%;
+    height: 100vh;
+    
+    background-color: #CCC5B9;
 }
 
 .text{
     
         font-family: "Lucida Console", monospace;
-        font-size: 500%;
-        margin-left: 10%;
+        font-size: 110px;
+        margin-left:5% ;
         margin-top: 5%;
         color: #000000;
         font-weight: bold;
+        width: 80%;
+        text-align: center;
+        
      
 }
 .text .by{
-    font-size: 30%;
-    background-color: #888888;
+    color: #FFFCF2;
+    font-size: 23%;
+    background-color: #000000;
     border-radius: 25px;
-    width: 70%;
+    width: 400px;
     height: 30px;
     text-align: center;
-    padding: 5% 5%;
+    margin-left: 20%;
+
+    padding: 20px;
     
 }
 
 .picture{
-    width: 25%;
-    height: 25%;
-    margin-top: 5%;
-    
+ background-image: url('../images/bg2.png');
+    margin-right: 10%;
+     width: 50% ;
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .picture img{
-     border-radius: 50%;
-     border: 15px solid #888888;
+    border-radius: 50%;
+    width: 100%;
+    min-width: 300px;
+    margin-bottom: 42%;
+    margin-right: 3%;
+    
+    
 }
 
 .socials {
     display: flex;
     flex-wrap: row;
     column-gap: 2%;
-    margin-left:13% ;
+    margin-left:25% ;
+    margin-bottom: 30%;
+    
 }
 .socials img{
     width: 100px;
+    
    
 }
 .container{
     display: flex;
     flex-wrap: column;
-    column-gap: 25%;
-    margin-left: 13%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    column-gap: 5%;
+    height: 100vh;
+    align-items: center;
+    background-color: #252422;
 }
 .about{
-    width: 30%;
+    width: 40%;
    
-    
+   color: #FFFCF2;
     text-align: justify;
     font-family: "Lucida Console", monospace;
     line-height: 2;
@@ -116,18 +139,31 @@ nav .links a:hover{
 
 .about .aboutme{
     font-weight: bold;
-    font-size: 150%;
+    font-size: 200%;
+    color: #FFFCF2;
 }
 
 .aboutimg{
+    background-image: url('../images/bg3.png');
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 margin-top: 2%;
- width:  25%;
- margin-left: 5%;
+ width:  40%;
+
 }
 
 .aboutimg img{
+    width: 90%;
+    margin-bottom: 25%;
     border-radius: 50%;
-    border: #888888 solid 15px;
 }
+
+
+
+
 
 
