@@ -22,7 +22,7 @@ nav .links{
     display: flex;
     flex-direction: row;
     column-gap: 20px;
-   justify-content: flex-end;
+ 
 }
 nav{
    height: 70px;
@@ -35,6 +35,12 @@ nav{
    display: flex;
    flex-direction: row;
    column-gap: 65%;
+}
+@media (max-width: 720px) and (max-height: 1600px) {
+  nav{
+    column-gap: 10%;
+
+  }
 }
 nav .pic img{
     width: 100%;
@@ -55,7 +61,22 @@ nav .links a:hover{
     
     background-color: #CCC5B9;
 }
+@media (max-width: 720px) and (max-height: 1600px) {
+  .welcome{
+    display: flex;
+    flex-direction: column;
 
+  }
+  .picture{
+    align-items: center;
+    justify-content: center;
+    margin-left: 23%;
+  }
+  .text{
+    font-size: 5px;
+  }
+
+}
 .text{
     
         font-family: "Lucida Console", monospace;
@@ -222,5 +243,24 @@ margin-top: 2%;
     font-size: 50px;
     color:#403D39;
 }
+@media (max-width: 720px) and (max-height: 1600px) {
+  .circles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .radialProgressBar {
+ 
+  width: 220px;
+  height: 220px;
+ 
+}
+.radialProgressBar .overlay {
+ 
+  width: 160px;
+  height: 160px;
 
+}
+  }
 
